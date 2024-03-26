@@ -1,5 +1,4 @@
-Food-App-Review-Embeddings-and-Clustering-Toolkit
-
+Food App Review Embeddings and Clustering
 Overview
 This repository contains code and resources related to generating embeddings for a food app review dataset using the Sentence Transformer model (specifically, the all_MiniLm_L6_v2 variant). The embeddings are visualized in 2D and 3D vector spaces using UMAP and Plotly. Additionally, k-means clustering is applied to the embeddings.
 
@@ -35,3 +34,4 @@ Acknowledgments
 The Sentence Transformer model: Hugging Face Transformers
 UMAP: UMAP-learn
 Plotly: Plotly Python
+Feel free to customize this README to suit your project’s specifics. Happy coding! 🚀
