@@ -16,8 +16,8 @@ scikit-learn
 
 # Acknowledgments
 
-The Sentence Transformer model: Hugging Face Transformers
+The Sentence Transformer model: Hugging Face Transformers(https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2)
 
-UMAP: UMAP-learn
+UMAP: UMAP-learn(https://umap-learn.readthedocs.io/en/latest/)
 
-Plotly: Plotly Python
+Plotly: Plotly Python(https://plotly.com/python/getting-started/#installation)
