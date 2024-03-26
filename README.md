@@ -19,34 +19,45 @@ README.md: This README file.
 # Usage
 ## Data Preparation:
 Place your food app review dataset in the data/ directory.
+
 Preprocess the data (e.g., tokenization, cleaning) as needed.
 
 # Embedding Generation:
 Run the notebook in notebooks/1_generate_embeddings.ipynb.
+
 Use the Sentence Transformer model (all_MiniLm_L6_v2) to create embeddings for the reviews.
 
 # Visualization:
 Explore the embeddings using UMAP and Plotly in notebooks/2_visualize_embeddings.ipynb.
+
 Generate 2D and 3D scatter plots to visualize the review representations.
 
 # Clustering:
 Apply k-means clustering to the embeddings in notebooks/3_kmeans_clustering.ipynb.
+
 Analyze the clusters and interpret the results.
 
 # Results:
 Save visualizations and clustering results in the results/ directory.
 
 # Dependencies
+
 Make sure you have the following Python libraries installed:
 
 sentence-transformers
+
 umap-learn
+
 plotly
+
 scikit-learn
 
 # Acknowledgments
+
 The Sentence Transformer model: Hugging Face Transformers
+
 UMAP: UMAP-learn
+
 Plotly: Plotly Python
 
 Feel free to customize this README to suit your project’s specifics. Happy coding! 🚀
