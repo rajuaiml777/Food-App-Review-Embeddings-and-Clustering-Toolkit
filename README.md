@@ -1,7 +1,5 @@
 # Food App Review Embeddings, Visualizations, and Clustering
 
-![Food App Review Embeddings](images/food-app-review-embeddings.jpg)
-
 ## Overview
 This repository contains code and resources related to generating embeddings for a food app review dataset using the Sentence Transformer model (specifically, the all_MiniLm_L6_v2 variant). The embeddings are visualized in 2D and 3D vector spaces using UMAP and Plotly, and k-means clustering is applied to the embeddings.
 
@@ -14,7 +12,7 @@ To get started with this project, follow these steps:
    ```
 2. ** Install dependencies:** 
 ```
-pip install -r requirements.txt
+   pip install -r requirements.txt
 ```
 
 ## Table of Contents
@@ -22,7 +20,6 @@ pip install -r requirements.txt
 2. [Visualise the Embeddings through Dimensionality Reduction](#visualise-the-embeddings-through-dimensionality-reduction)
 3. [Cluster and Visualise the Embeddings with Plotly](#cluster-and-visualise-the-embeddings-with-plotly)
 4. [Visualise the Embeddings in 3D](#visualise-the-embeddings-in-3d)
-5. [Getting Started](#getting-started)
 
 ## 1. Use SentenceTransformers to Generate Embeddings
 Sentence Transformers are advanced natural language processing models that encode sentences into high-dimensional vectors. These vectors encapsulate the semantic nuances of text, offering a robust foundation for various text-related tasks, such as clustering, classification, and more.
